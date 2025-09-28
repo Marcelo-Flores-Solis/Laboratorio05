@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Página de Computación</title>
+  <title>Pagina de Computación</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -12,9 +13,9 @@
     <h1>Mi Blog de Computación</h1>
     <nav>
       <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Artículos</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#ia">Inteligencia Artificial</a></li>
+        <li><a href="#ciberseguridad">Ciberseguridad</a></li>
       </ul>
     </nav>
   </header>
@@ -22,30 +23,55 @@
   <!-- Contenido principal -->
   <main>
     <section>
-      <article>
+      <!-- Artículo 1 -->
+      <article id="historia">
         <h2>Historia de la Computación</h2>
-        <p>La computación ha evolucionado desde las primeras máquinas mecánicas hasta los modernos sistemas en la nube.</p>
+        <p>
+          La historia de la computación inicia con dispositivos mecánicos como el ábaco,
+          seguido por las primeras calculadoras de Pascal y Leibniz. En el siglo XX surgieron
+          máquinas como el ENIAC y la Zuse Z3, que dieron paso a la era de los computadores electrónicos.
+        </p>
+        <p>
+          A lo largo de las décadas, la computación ha pasado por varias generaciones:
+          válvulas de vacío, transistores, circuitos integrados
+          y la actual computación en la nube, que permite acceso remoto a servicios y datos.
+        </p>
         <figure>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/ENIAC_Penn1.jpg" alt="Historia de la Computación">
-          <figcaption>Primeras computadoras.</figcaption>
+          <img src="imagenes/1.jpeg" alt="  Historia de la Computación">
         </figure>
       </article>
 
-      <article>
+      <!-- Artículo 2 -->
+      <article id="ia">
         <h2>Inteligencia Artificial</h2>
-        <p>La IA busca que las máquinas aprendan y realicen tareas que normalmente requieren inteligencia humana.</p>
+        <p>
+          La Inteligencia Artificial (IA) es una rama de la informática que busca que las máquinas
+          realicen tareas que normalmente requieren inteligencia humana, como el reconocimiento de imágenes,
+          el procesamiento del lenguaje natural y la toma de decisiones.
+        </p>
+        <p>
+          Hoy en día, la IA se aplica en asistentes virtuales, sistemas de recomendación,
+          diagnósticos médicos y automóviles autónomos. Su desarrollo plantea avances, pero también retos éticos.
+        </p>
         <figure>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Artificial_intelligence_robot.jpg" alt="Inteligencia Artificial">
-          <figcaption>Ejemplo de IA.</figcaption>
+          <img src="imagenes/2.jpg" alt="Inteligencia Artificial">
         </figure>
       </article>
 
-      <article>
+      <!-- Artículo 3 -->
+      <article id="ciberseguridad">
         <h2>Ciberseguridad</h2>
-        <p>La seguridad informática es fundamental para proteger la información en la era digital.</p>
+        <p>
+          La ciberseguridad es el conjunto de prácticas y tecnologías que buscan proteger los sistemas informáticos,
+          redes y datos frente a accesos no autorizados, ataques y daños.
+        </p>
+        <p>
+          Algunas medidas esenciales incluyen: el uso de contraseñas seguras, 
+          software actualizado y copias de seguridad. 
+          Además, la formación de los usuarios es clave para evitar ataques de ingeniería social.
+        </p>
         <figure>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cyber_Security_Monitoring_Room.jpg" alt="Ciberseguridad">
-          <figcaption>Protección de datos.</figcaption>
+          <img src="imagenes/3.jpg" alt="ciberseguridad ">
         </figure>
       </article>
     </section>
@@ -54,16 +80,16 @@
     <aside>
       <h3>Enlaces relacionados</h3>
       <ul>
-        <li><a href="#">Historia de Internet</a></li>
-        <li><a href="#">Programación Web</a></li>
-        <li><a href="#">Redes de Computadoras</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Historia_de_la_computaci%C3%B3n" target="_blank">Historia de la Computación</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Inteligencia_artificial" target="_blank">Inteligencia Artificial</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Seguridad_inform%C3%A1tica" target="_blank">Seguridad Informática</a></li>
       </ul>
     </aside>
   </main>
 
   <!-- Pie de página -->
   <footer>
-    <p>Contacto: mfloresso@unsa.edu.pe | Tel: 959 329 196</p>
+    <p>© 2025 Mi Blog de Computación | Contacto: mfloresso@unsa.edu.pe</p>
   </footer>
 
 </body>
